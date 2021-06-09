@@ -12,3 +12,5 @@ class SearchLayout extends Component {
         )
     }
 }
+
+export default SearchLayout;

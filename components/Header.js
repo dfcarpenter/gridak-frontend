@@ -8,11 +8,12 @@ const options = [
     { value: 'vanilla', label: 'Vanilla' }
   ]
 
-const Header = (props) => {
+export default Header = (props) => {
     return (
         <header>
             <div>
                 <Image src="/globe.png" alt="GRID globe" width={47} height={47} />
+                <h1>GRID</h1>
             </div>
             <div>
                 <Select options={options} />
